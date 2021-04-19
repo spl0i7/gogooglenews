@@ -16,7 +16,7 @@ This work is more of a collection of all things I could find out about how Googl
 
 ```go
 
-googleNews, err := NewGoogleNews(GoogleNewsOpt{
+googleNews, err := gogooglenews.NewGoogleNews(gogooglenews.GoogleNewsOpt{
     Lang:    "en",
     Country: "IN",
 })
@@ -62,7 +62,7 @@ To bypass this, ideally you should be making requests behind a proxy. To use a p
 proxyUrl, err := url.Parse("http://proxyIp:proxyPort")
 myClient := &http.Client{Transport: &http.Transport{Proxy: http.ProxyURL(proxyUrl)}
 
-googleNews, err := NewGoogleNews(GoogleNewsOpt{
+googleNews, err := gogooglenews.NewGoogleNews(gogooglenews.GoogleNewsOpt{
     Lang:    "en",
     Country: "IN",
     HttpClient: myClient
