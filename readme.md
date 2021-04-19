@@ -1,6 +1,6 @@
 Inspired by [pygooglenews](https://github.com/kotartemiy/pygooglenews)
 
-#About
+# About
 
 A golang based wrapper of the Google News RSS feed.
 
