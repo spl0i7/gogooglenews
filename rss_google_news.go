@@ -1,4 +1,4 @@
-package main
+package gogooglenews
 
 import (
 	"encoding/xml"
