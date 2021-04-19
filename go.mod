@@ -1,4 +1,4 @@
-module gogooglenews
+module github.com/spl0i7/gogooglenews
 
 go 1.14
 
